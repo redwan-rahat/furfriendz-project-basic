@@ -1,0 +1,34 @@
+
+body{
+  font-family: "Fredoka", serif;
+}
+
+.fredoka {
+  font-family: "Fredoka", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+
+
+:root {
+  --primary: #006769;
+  --second: #40A578; 
+  --third:#9DDE8B;
+  --fourth : #E6FF94;
+  --fifth: #C9E9D2; 
+}
+.text-primary { color: var(--primary); }
+.text-second { color: var(--second); }
+.text-third { color: var(--third); }
+.text-fourth { color: var(--fourth); }
+.text-fifth { color: var(--fifth); }
+
+.bg-primary { background-color: var(--primary); }
+.bg-second{background-color:   var(--second);}
+.bg-third { background-color: var(--third); }
+.bg-fourth{background-color:   var(--fourth);}
+.bg-fifth { background-color: var(--fifth); }
+

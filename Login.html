@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Login</title>
+    
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+       <link rel="stylesheet" href="style.css">
+    
+    
+    </head>
+<body>
+    <div class="flex bg-fifth font-page   m-auto">
+      
+        <div class="flex w-11/12 m-auto justify-between items-center">
+            <a href="./index.html">
+                <div class="w-36 h-36 hover:cursor-pointer">
+                    <img src="https://i.ibb.co.com/84VQ3Vs/Logo-5.webp" alt="Logo" />
+                </div>
+            </a>
+            <div>
+                <ul class="flex space-x-10 text-primary font-medium">
+                    <li><a href="./index.html" class="hover:text-primary">Home</a></li>
+                    <li><a href="#section2" class="hover:text-primary">Pets & Products</a></li>
+                    <li><a href="./PetCare.html" class="hover:text-primary">Pet Care</a></li>
+                    <li><a href="./Blogs.html" class="hover:text-primary">Blog</a></li>
+                    <li><a href="./ContactUs.html" class="hover:text-primary">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex space-x-6 items-center text-second font-medium">
+                    <li><a href="./Profile.html" class="text-primary">Profile</a></li>
+                    <li><a href="./Login.html" class="text-primary">Login</a></li>
+                    <li>
+                        <a href="" class="text-primary">My Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-fifth pb-32 flex  pt-20 text-white justify-center">
+        <div class="w-11/12 h-96 max-w-sm bg-second p-6 rounded-md shadow-md">
+          <h1 class="text-center text-4xl font-semibold mb-6">Login Here</h1>
+          <form action="#" method="POST">
+          
+            <div class="relative mb-6">
+              <label
+                for="email"
+                class="absolute left-3 opacity-50 top-3 text-sm  transition-all duration-300 pointer-events-none"
+              >
+                Email
+              </label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                class="w-full border-b border-white bg-transparent pt-4 pb-1 focus:outline-none focus:ring-0 focus:border-black text-sm"
+              />
+            </div>
+      
+            
+            <div class="relative mb-6">
+              <label
+                for="password"
+                class="absolute left-3 opacity-50 top-3 text-sm  transition-all duration-300 pointer-events-none"
+              >
+                Password
+              </label>
+              <input
+                id="password"
+                type="password"
+                name="password"
+                class="w-full border-b border-white bg-transparent pt-4 pb-1 focus:outline-none focus:ring-0 focus:border-black text-sm"
+              />
+              <div
+                class="absolute right-3 top-4 cursor-pointer  hover:text-black"
+              >
+           
+                <span>👁</span>
+              </div>
+            </div>
+      
+   
+            <div class="text-red-600 text-sm mb-4">
+           
+            </div>
+   
+            <div class="flex justify-between text-sm mb-6">
+              <a href="./Registration.html" class="underline  hover:text-black">Register Here</a>
+              <a href="#" class="underline  hover:text-black">Forgot Password?</a>
+            </div>
+      
+            <button
+              type="submit"
+              class="w-full bg-primary text-white py-2 rounded-md hover:bg-black transition duration-300"
+            >
+              Login
+            </button>
+          </form>
+   
+          <button
+            class="mt-4 w-full border-2 border-white hover:bg-gray-400 flex items-center justify-center space-x-2 py-2 rounded-md  transition duration-300"
+          >
+            <span class="text-white">Sign in with Google</span>
+            <span class="text-xl">G</span>
+          </button>
+        </div>
+    </div>
+
+    <div class="font-page bg-gray-900 text-white">
+        <footer class="flex py-28 w-10/12 m-auto flex-wrap justify-between items-start gap-10  px-6">
+  
+          <div class="text-center">
+            <img class="w-28 mx-auto" src="https://i.ibb.co.com/84VQ3Vs/Logo-5.webp" alt="Logo" />
+            <p class="">
+              FurFriendz
+              <br />
+              Pixelopers Solutions Ltd.
+            </p>
+          </div>
+     
+          <div>
+            <h6 class="text-lg font-semibold mb-4">Products</h6>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-gray-400">Branding</a></li>
+              <li><a href="#" class="hover:text-gray-400">Delivery</a></li>
+              <li><a href="#" class="hover:text-gray-400">Marketing</a></li>
+              <li><a href="#" class="hover:text-gray-400">Advertisement</a></li>
+            </ul>
+          </div>
+   
+          <div>
+            <h6 class="text-lg font-semibold mb-4">Company</h6>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-gray-400">Contact Us</a></li>
+              <li><a href="https://www.linkedin.com/in/redwan-hasan-rahat-109812319/" class="hover:text-gray-400">LinkedIn</a></li>
+              <li><a href="#" class="hover:text-gray-400">Facebook</a></li>
+              <li><a href="#" class="hover:text-gray-400">WhatsApp</a></li>
+            </ul>
+          </div>
+      
+         
+          <div>
+            <h6 class="text-lg font-semibold mb-4">Legal</h6>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-gray-400">Terms of Use</a></li>
+              <li><a href="#" class="hover:text-gray-400">Privacy Policy</a></li>
+              <li><a href="#" class="hover:text-gray-400">Cookie Policy</a></li>
+            </ul>
+          </div>
+        </footer>
+      
+        <div class="text-center py-4 bg-gray-900">
+          <a class="underline text-sm text-gray-400 hover:text-gray-200" href="https://www.linkedin.com/in/redwan-hasan-rahat-109812319/">
+            Developed By Md. Redwan Hasan Rahat
+          </a>
+        </div>
+      </div>
+
+</body>
+
+
+</html>

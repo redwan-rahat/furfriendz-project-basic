@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "other-projects-rahat"
+  },
+  "targets": {
+    "other-projects-rahat": {
+      "hosting": {
+        "pfurfriendz": [
+          "projectfurfriendz"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
