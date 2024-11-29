@@ -1,1 +1,1 @@
-Live Website : [https://projectfurfriendz.web.app](https://projectfurfriendz.web.app/)
+Live Website : [https://furfriendz.vercel.app/](https://furfriendz.vercel.app/)
